@@ -82,7 +82,7 @@ namespace KalayaanZoo
         {
 
             userNameLbl.Text = frmLogin.userName;
-            IDLbl.Text = frmLogin.mngID;
+            IDLbl.Text = frmLogin.mngID; //try kung magbabago sa push
         }
     }
 }
