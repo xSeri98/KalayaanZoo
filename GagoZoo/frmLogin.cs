@@ -18,9 +18,11 @@ namespace KalayaanZoo
         public frmLogin()
         {
             InitializeComponent();
-            userLogin = new mngLogin();
-            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.SeriDBConnectionString"].ConnectionString;
+            userLogin = new mngLogin(); //mngLogin class instance para sa manager login
+            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.SeriDBConnectionString"].ConnectionString; // sql coonetion initialize para doon sa database
         }
+
+        //Executes pag click ng button, verifying lang kung nag-e-exist ba yung user sa database then pag meron proceed sa mainUI
         private void loginBtn_Click(object sender, System.EventArgs e)
         {
 
@@ -44,6 +46,8 @@ namespace KalayaanZoo
                 MessageBox.Show("Don't leave out any empty fields!","Error!");
             }
         }
+
+        //Method sa pag verify 
         public bool isVerified(string pass)
         {
 
