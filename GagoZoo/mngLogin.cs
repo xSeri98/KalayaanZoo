@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace KalayaanZoo
 {
+    //class pang kuha ng manager login info
     public class mngLogin
     {
         private string username;

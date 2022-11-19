@@ -11,8 +11,11 @@ using System.Windows.Forms;
 
 namespace KalayaanZoo
 {
+    //yung codes hanggang CreateRoundRectRgn pang shape lang siya ng UI para rounded yung mga edges bali yun lang yung function niya
     public partial class mainUI : Form
     {
+        
+
         private int borderSize = 2;
         private Color borderColor = Color.FromArgb(128, 128, 255);
 
