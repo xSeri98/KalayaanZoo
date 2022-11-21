@@ -83,7 +83,6 @@ namespace KalayaanZoo
 
         private void mainUI_Load(object sender, EventArgs e)
         {
-
             userNameLbl.Text = frmLogin.userName;
             IDLbl.Text = frmLogin.mngID; //try kung magbabago sa push
         }

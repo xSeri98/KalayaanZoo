@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KalayaanZoo.Properties {
+namespace GagoZoo.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -31,6 +31,17 @@ namespace KalayaanZoo.Properties {
         public string SeriDBConnectionString {
             get {
                 return ((string)(this["SeriDBConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ROJIE\\SQLRSERVER;Initial Catalog=KalayaanZoo;Persist Security Info=Tr" +
+            "ue;User ID=sa;Password=sysadmin12345")]
+        public string KalayaanZooConnectionString {
+            get {
+                return ((string)(this["KalayaanZooConnectionString"]));
             }
         }
     }

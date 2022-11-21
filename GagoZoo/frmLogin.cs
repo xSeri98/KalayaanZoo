@@ -19,7 +19,7 @@ namespace KalayaanZoo
         {
             InitializeComponent();
             userLogin = new mngLogin(); //mngLogin class instance para sa manager login
-            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.SeriDBConnectionString"].ConnectionString; // sql coonetion initialize para doon sa database
+            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.KalayaanZooConnectionString"].ConnectionString; // sql coonetion initialize para doon sa database
         }
 
         //Executes pag click ng button, verifying lang kung nag-e-exist ba yung user sa database then pag meron proceed sa mainUI
@@ -58,9 +58,9 @@ namespace KalayaanZoo
             userLogin.Username = usertxtBox.Text;
             userLogin.Password = passtxtBox.Text;
 
-            string query = "select password from managerAccounts where user_name =" + "'" + userLogin.Username + "'";
-            string queryUser = "select user_name from managerAccounts where user_name =" + "'" + userLogin.Username + "'";
-            string querymngID = "select mng_ID from managerAccounts where user_name =" + "'" + userLogin.Username + "'";
+            string query = "select password from ManagerAccounts where user_name =" + "'" + userLogin.Username + "'";
+            string queryUser = "select user_name from ManagerAccounts where user_name =" + "'" + userLogin.Username + "'";
+            string querymngID = "select mng_ID from ManagerAccounts where user_name =" + "'" + userLogin.Username + "'";
 
             SqlCommand cmd1 = new SqlCommand(query, sqlCon);
             SqlCommand cmd2 = new SqlCommand(queryUser, sqlCon2);

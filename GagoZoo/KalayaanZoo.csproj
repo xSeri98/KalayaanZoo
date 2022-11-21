@@ -53,6 +53,11 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="KalayaanZooDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KalayaanZooDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="mainUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +67,9 @@
     <Compile Include="mngLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeriDBDataSet.cs">
+      <DependentUpon>SeriDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SeriDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -82,6 +90,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="KalayaanZooDataSet.xsc">
+      <DependentUpon>KalayaanZooDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KalayaanZooDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KalayaanZooDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KalayaanZooDataSet.xss">
+      <DependentUpon>KalayaanZooDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
