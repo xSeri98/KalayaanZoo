@@ -29,7 +29,7 @@ namespace KalayaanZoo
             if (!string.IsNullOrEmpty(usertxtBox.Text) && !string.IsNullOrEmpty(passtxtBox.Text))
             {
 
-                if (isVerified(passtxtBox.Text))
+                if (isVerified(passtxtBox.Text,usertxtBox.Text))
                 {
                     mainUI uI = new mainUI();
                     this.Hide();
@@ -48,7 +48,7 @@ namespace KalayaanZoo
         }
 
         //Method sa pag verify 
-        public bool isVerified(string pass)
+        public bool isVerified(string pass,string user)
         {
 
             sqlCon = new SqlConnection(connectionString);
@@ -120,7 +120,7 @@ namespace KalayaanZoo
 
 
 
-            if (userLogin.Password.Equals(password) && !string.IsNullOrEmpty(passtxtBox.Text))
+            if (userLogin.Password.Equals(password) && userLogin.Username.Equals(userName) &&!string.IsNullOrEmpty(passtxtBox.Text))
             {             
                 return true;
             }

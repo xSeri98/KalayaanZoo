@@ -86,5 +86,10 @@ namespace KalayaanZoo
             userNameLbl.Text = frmLogin.userName;
             IDLbl.Text = frmLogin.mngID; //try kung magbabago sa push
         }
+
+        private void dashBtn_MouseHover(object sender, EventArgs e)
+        {
+            dashBtn.BackColor = Color.FromArgb(39, 174, 96);
+        }
     }
 }

@@ -105,6 +105,7 @@
             this.dashBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.dashBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.dashBtn.FlatAppearance.BorderSize = 0;
+            this.dashBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.dashBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashBtn.ForeColor = System.Drawing.Color.Azure;
@@ -121,6 +122,7 @@
             // 
             this.viewAnimalsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.viewAnimalsBtn.FlatAppearance.BorderSize = 0;
+            this.viewAnimalsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.viewAnimalsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewAnimalsBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.viewAnimalsBtn.ForeColor = System.Drawing.Color.Azure;
@@ -155,6 +157,7 @@
             // 
             this.viewKeepersBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.viewKeepersBtn.FlatAppearance.BorderSize = 0;
+            this.viewKeepersBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.viewKeepersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewKeepersBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.viewKeepersBtn.ForeColor = System.Drawing.Color.Azure;
@@ -253,6 +256,7 @@
             // 
             this.viewTickerPrcBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.viewTickerPrcBtn.FlatAppearance.BorderSize = 0;
+            this.viewTickerPrcBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.viewTickerPrcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewTickerPrcBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.viewTickerPrcBtn.ForeColor = System.Drawing.Color.Azure;
