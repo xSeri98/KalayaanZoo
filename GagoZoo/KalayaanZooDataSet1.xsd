@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KalayaanZooConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KalayaanZooConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GagoZoo.Properties.Settings.GlobalReference.Default.KalayaanZooConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KalayaanZooConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KalayaanZooConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.KalayaanZoo.Properties.Settings.GlobalReference.Default.KalayaanZooConnectionString1" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ManagerAccountsTableAdapter" GeneratorDataComponentClassName="ManagerAccountsTableAdapter" Name="ManagerAccounts" UserDataComponentName="ManagerAccountsTableAdapter">
@@ -83,35 +83,35 @@ SELECT mng_id, user_name, password, mng_fname, mng_lname FROM ManagerAccounts WH
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="KalayaanZooDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="KalayaanZooDataSet1" msprop:Generator_DataSetName="KalayaanZooDataSet1">
+  <xs:element name="KalayaanZooDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KalayaanZooDataSet1" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="KalayaanZooDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="ManagerAccounts" msprop:Generator_RowEvHandlerName="ManagerAccountsRowChangeEventHandler" msprop:Generator_RowDeletedName="ManagerAccountsRowDeleted" msprop:Generator_RowDeletingName="ManagerAccountsRowDeleting" msprop:Generator_RowEvArgName="ManagerAccountsRowChangeEvent" msprop:Generator_TablePropName="ManagerAccounts" msprop:Generator_RowChangedName="ManagerAccountsRowChanged" msprop:Generator_RowChangingName="ManagerAccountsRowChanging" msprop:Generator_TableClassName="ManagerAccountsDataTable" msprop:Generator_RowClassName="ManagerAccountsRow" msprop:Generator_TableVarName="tableManagerAccounts" msprop:Generator_UserTableName="ManagerAccounts">
+        <xs:element name="ManagerAccounts" msprop:Generator_RowClassName="ManagerAccountsRow" msprop:Generator_RowEvHandlerName="ManagerAccountsRowChangeEventHandler" msprop:Generator_RowDeletedName="ManagerAccountsRowDeleted" msprop:Generator_RowDeletingName="ManagerAccountsRowDeleting" msprop:Generator_RowEvArgName="ManagerAccountsRowChangeEvent" msprop:Generator_TablePropName="ManagerAccounts" msprop:Generator_RowChangedName="ManagerAccountsRowChanged" msprop:Generator_UserTableName="ManagerAccounts" msprop:Generator_RowChangingName="ManagerAccountsRowChanging" msprop:Generator_TableClassName="ManagerAccountsDataTable" msprop:Generator_TableVarName="tableManagerAccounts">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="mng_id" msprop:Generator_ColumnPropNameInRow="mng_id" msprop:Generator_ColumnPropNameInTable="mng_idColumn" msprop:Generator_ColumnVarNameInTable="columnmng_id" msprop:Generator_UserColumnName="mng_id" type="xs:int" />
-              <xs:element name="user_name" msprop:Generator_ColumnPropNameInRow="user_name" msprop:Generator_ColumnPropNameInTable="user_nameColumn" msprop:Generator_ColumnVarNameInTable="columnuser_name" msprop:Generator_UserColumnName="user_name" minOccurs="0">
+              <xs:element name="mng_id" msprop:Generator_UserColumnName="mng_id" msprop:Generator_ColumnPropNameInTable="mng_idColumn" msprop:Generator_ColumnPropNameInRow="mng_id" msprop:Generator_ColumnVarNameInTable="columnmng_id" type="xs:int" />
+              <xs:element name="user_name" msprop:Generator_UserColumnName="user_name" msprop:Generator_ColumnPropNameInTable="user_nameColumn" msprop:Generator_ColumnPropNameInRow="user_name" msprop:Generator_ColumnVarNameInTable="columnuser_name" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="password" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnPropNameInTable="passwordColumn" msprop:Generator_ColumnVarNameInTable="columnpassword" msprop:Generator_UserColumnName="password" minOccurs="0">
+              <xs:element name="password" msprop:Generator_UserColumnName="password" msprop:Generator_ColumnPropNameInTable="passwordColumn" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnVarNameInTable="columnpassword" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="mng_fname" msprop:Generator_ColumnPropNameInRow="mng_fname" msprop:Generator_ColumnPropNameInTable="mng_fnameColumn" msprop:Generator_ColumnVarNameInTable="columnmng_fname" msprop:Generator_UserColumnName="mng_fname" minOccurs="0">
+              <xs:element name="mng_fname" msprop:Generator_UserColumnName="mng_fname" msprop:Generator_ColumnPropNameInTable="mng_fnameColumn" msprop:Generator_ColumnPropNameInRow="mng_fname" msprop:Generator_ColumnVarNameInTable="columnmng_fname" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="mng_lname" msprop:Generator_ColumnPropNameInRow="mng_lname" msprop:Generator_ColumnPropNameInTable="mng_lnameColumn" msprop:Generator_ColumnVarNameInTable="columnmng_lname" msprop:Generator_UserColumnName="mng_lname" minOccurs="0">
+              <xs:element name="mng_lname" msprop:Generator_UserColumnName="mng_lname" msprop:Generator_ColumnPropNameInTable="mng_lnameColumn" msprop:Generator_ColumnPropNameInRow="mng_lname" msprop:Generator_ColumnVarNameInTable="columnmng_lname" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="255" />

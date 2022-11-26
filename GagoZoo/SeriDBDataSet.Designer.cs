@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace GagoZoo {
+namespace KalayaanZoo {
     
     
     /// <summary>
@@ -1492,7 +1492,7 @@ namespace GagoZoo {
         }
     }
 }
-namespace GagoZoo.SeriDBDataSetTableAdapters {
+namespace KalayaanZoo.SeriDBDataSetTableAdapters {
     
     
     /// <summary>
@@ -1636,7 +1636,7 @@ namespace GagoZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GagoZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1882,7 +1882,7 @@ namespace GagoZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GagoZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2120,7 +2120,7 @@ namespace GagoZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GagoZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
