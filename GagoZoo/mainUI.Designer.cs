@@ -261,7 +261,7 @@
             this.viewTickerPrcBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.viewTickerPrcBtn.ForeColor = System.Drawing.Color.Azure;
             this.viewTickerPrcBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewTickerPrcBtn.Image")));
-            this.viewTickerPrcBtn.Location = new System.Drawing.Point(-9, 353);
+            this.viewTickerPrcBtn.Location = new System.Drawing.Point(-9, 362);
             this.viewTickerPrcBtn.Name = "viewTickerPrcBtn";
             this.viewTickerPrcBtn.Size = new System.Drawing.Size(209, 35);
             this.viewTickerPrcBtn.TabIndex = 9;
