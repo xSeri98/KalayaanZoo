@@ -58,6 +58,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>KalayaanZooDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="KalayaanZooDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KalayaanZooDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="mainUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +105,17 @@
     </None>
     <None Include="KalayaanZooDataSet.xss">
       <DependentUpon>KalayaanZooDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KalayaanZooDataSet1.xsc">
+      <DependentUpon>KalayaanZooDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KalayaanZooDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KalayaanZooDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KalayaanZooDataSet1.xss">
+      <DependentUpon>KalayaanZooDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

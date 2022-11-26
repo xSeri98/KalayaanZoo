@@ -19,7 +19,7 @@ namespace KalayaanZoo
         {
             InitializeComponent();
             userLogin = new mngLogin(); //mngLogin class instance para sa manager login
-            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.KalayaanZooConnectionString"].ConnectionString; // sql coonetion initialize para doon sa database
+            connectionString = ConfigurationManager.ConnectionStrings["GagoZoo.Properties.Settings.KalayaanZooConnectionString1"].ConnectionString; // sql coonetion initialize para doon sa database
         }
 
         //Executes pag click ng button, verifying lang kung nag-e-exist ba yung user sa database then pag meron proceed sa mainUI
