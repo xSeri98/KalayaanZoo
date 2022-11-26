@@ -1636,7 +1636,7 @@ namespace KalayaanZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.SeriDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1882,7 +1882,7 @@ namespace KalayaanZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.SeriDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2120,7 +2120,7 @@ namespace KalayaanZoo.SeriDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.KalayaanZooConnectionString;
+            this._connection.ConnectionString = global::KalayaanZoo.Properties.Settings.Default.SeriDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
