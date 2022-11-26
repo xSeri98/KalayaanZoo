@@ -36,14 +36,16 @@
             this.dashBtn = new System.Windows.Forms.Button();
             this.viewAnimalsBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.viewKeepersBtn = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.IDLbl = new System.Windows.Forms.Label();
             this.mngIDLbl = new System.Windows.Forms.Label();
             this.userNameLbl = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.viewKeepersBtn = new System.Windows.Forms.Button();
+            this.maintenanceLbl = new System.Windows.Forms.Label();
+            this.viewTickerPrcBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -134,6 +136,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
+            this.panel2.Controls.Add(this.viewTickerPrcBtn);
+            this.panel2.Controls.Add(this.maintenanceLbl);
             this.panel2.Controls.Add(this.viewKeepersBtn);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.IDLbl);
@@ -146,6 +150,52 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 704);
             this.panel2.TabIndex = 3;
+            // 
+            // viewKeepersBtn
+            // 
+            this.viewKeepersBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
+            this.viewKeepersBtn.FlatAppearance.BorderSize = 0;
+            this.viewKeepersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewKeepersBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.viewKeepersBtn.ForeColor = System.Drawing.Color.Azure;
+            this.viewKeepersBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewKeepersBtn.Image")));
+            this.viewKeepersBtn.Location = new System.Drawing.Point(-9, 252);
+            this.viewKeepersBtn.Name = "viewKeepersBtn";
+            this.viewKeepersBtn.Size = new System.Drawing.Size(209, 35);
+            this.viewKeepersBtn.TabIndex = 7;
+            this.viewKeepersBtn.Text = "Keepers";
+            this.viewKeepersBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.viewKeepersBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 67);
+            this.panel4.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(84, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "KZ-MS 1.0";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(2, -11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 76);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // IDLbl
             // 
@@ -188,51 +238,32 @@
             this.panel3.Size = new System.Drawing.Size(51, 51);
             this.panel3.TabIndex = 4;
             // 
-            // panel4
+            // maintenanceLbl
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 67);
-            this.panel4.TabIndex = 4;
+            this.maintenanceLbl.AutoSize = true;
+            this.maintenanceLbl.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.maintenanceLbl.ForeColor = System.Drawing.Color.Azure;
+            this.maintenanceLbl.Location = new System.Drawing.Point(15, 321);
+            this.maintenanceLbl.Name = "maintenanceLbl";
+            this.maintenanceLbl.Size = new System.Drawing.Size(87, 20);
+            this.maintenanceLbl.TabIndex = 8;
+            this.maintenanceLbl.Text = "Maintenance";
             // 
-            // pictureBox1
+            // viewTickerPrcBtn
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(2, -11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 76);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(84, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "KZ-MS 1.0";
-            // 
-            // viewKeepersBtn
-            // 
-            this.viewKeepersBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
-            this.viewKeepersBtn.FlatAppearance.BorderSize = 0;
-            this.viewKeepersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewKeepersBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.viewKeepersBtn.ForeColor = System.Drawing.Color.Azure;
-            this.viewKeepersBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewKeepersBtn.Image")));
-            this.viewKeepersBtn.Location = new System.Drawing.Point(-9, 252);
-            this.viewKeepersBtn.Name = "viewKeepersBtn";
-            this.viewKeepersBtn.Size = new System.Drawing.Size(209, 35);
-            this.viewKeepersBtn.TabIndex = 7;
-            this.viewKeepersBtn.Text = "Keepers";
-            this.viewKeepersBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.viewKeepersBtn.UseVisualStyleBackColor = false;
+            this.viewTickerPrcBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
+            this.viewTickerPrcBtn.FlatAppearance.BorderSize = 0;
+            this.viewTickerPrcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewTickerPrcBtn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.viewTickerPrcBtn.ForeColor = System.Drawing.Color.Azure;
+            this.viewTickerPrcBtn.Image = ((System.Drawing.Image)(resources.GetObject("viewTickerPrcBtn.Image")));
+            this.viewTickerPrcBtn.Location = new System.Drawing.Point(-9, 353);
+            this.viewTickerPrcBtn.Name = "viewTickerPrcBtn";
+            this.viewTickerPrcBtn.Size = new System.Drawing.Size(209, 35);
+            this.viewTickerPrcBtn.TabIndex = 9;
+            this.viewTickerPrcBtn.Text = "Ticket Prices";
+            this.viewTickerPrcBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.viewTickerPrcBtn.UseVisualStyleBackColor = false;
             // 
             // mainUI
             // 
@@ -276,5 +307,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button viewKeepersBtn;
+        private System.Windows.Forms.Button viewTickerPrcBtn;
+        private System.Windows.Forms.Label maintenanceLbl;
     }
 }
